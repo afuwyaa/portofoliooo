@@ -1,0 +1,149 @@
+.header {
+    padding: 30px 50px;
+}
+
+.bg-green {
+    background-color: aqua;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+
+.Hero {
+    display: flex;
+    gap: 30px;
+    padding: 75px 60px;
+    background: aqua;
+}
+
+.hero-picture img {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    box-shadow: white;
+}
+.dash {
+    color: white;
+}
+
+.dash button{
+    padding: 10px 30px;
+    background: rgb(255, 255, 255);
+    color: aqua;
+    border-radius: 50px;
+    border-color: aqua;
+}
+
+.about {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: aqua;
+}
+
+.Biodata {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: rgb(161, 255, 255);
+}
+
+.Sekolah {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: aqua;
+    
+}
+
+.Pend {
+    display: flex;
+}
+.riwayat-pendidikan {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: rgb(161, 255, 255);
+}
+
+.hobby {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: aqua;
+}
+
+.hero {
+    display: flex;
+}
+
+.Kemampuan {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: aqua;
+}
+
+.Pengalaman {
+    padding: 30px;
+    border-radius: 20px;
+    border: 200px;
+    padding: 20px;
+    margin: 20px;
+    width: 450px;
+    height: auto;
+    box-shadow: 0px 0px 1px;
+    background-color: rgb(161, 255, 255);
+}
+
+/* untuk responsif di HP*/
+@media screen and (max-width: 900px) {
+    .Hero {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+.footer {
+  text-align: center;
+  font-size: 14px;
+  color: black;
+  padding: 15px 0;
+  font-family: Arial, sans-serif;
+  user-select: none;         
+}
